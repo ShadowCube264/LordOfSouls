@@ -1,15 +1,17 @@
-﻿using System;
-using Modding;
-using UnityEngine;
+﻿using Modding;
 
 namespace LordOfSouls
 {
-    public class LordOfSouls : Mod
+    public class LordOfSouls : Mod, ITogglableMod
     {
         public override string GetVersion() => "1.0.0";
         public override void Initialize()
         {
-            Log("Idk how to code lol");
+            Log("Initializing");
+        }
+        public void Unload()
+        {
+            Log("Mod unloading");
         }
     }
 }

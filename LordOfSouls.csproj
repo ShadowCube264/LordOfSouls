@@ -14,5 +14,10 @@
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ModCommon">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\Mods\ModCommon.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 
 </Project>
