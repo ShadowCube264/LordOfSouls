@@ -29,5 +29,8 @@
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\PlayMaker.dll</HintPath>
     </Reference>
   </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="System.Runtime" Version="4.2.2" />
+    </ItemGroup>
 
 </Project>
