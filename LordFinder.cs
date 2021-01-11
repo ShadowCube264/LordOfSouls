@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using USceneManager = UnityEngine.SceneManagement.SceneManager;
+using System.Runtime;
 
 //Modified from https://github.com/fifty-six/HollowKnight.Pale-Prince/blob/master/Pale%20Prince/PrinceFinder.cs
 
